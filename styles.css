@@ -96,15 +96,29 @@ hr {
     height: 600px;
 }
 
+
 .nft-image {
-    border: none;
-    border-radius: 8px;
+  border: none;
+  border-radius: 8px;
 }
 
-.nft-pricing {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0 15px;
+.nft-image:hover {
+  background-image: url("images/icon-view.svg");
+}
+
+.nft-listing {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 20px;;
+}
+
+.nft-pricing, .nft-duration {
+  display: flex;
+  align-items: center;
+}
+  
+.nft-pricing img, .nft-duration img {
+  padding-right: 5px;
 }
 
 .title {
@@ -138,10 +152,6 @@ hr {
 
 .eth, h1:hover, .name:hover {
     color: hsl(178, 100%, 50%)
-}
-
-.eth, .time {
-    
 }
 
 .name {
